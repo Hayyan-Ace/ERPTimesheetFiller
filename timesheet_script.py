@@ -107,11 +107,11 @@ def run_automation():
 
         page.click('button[data-label="Submit"]')
 
-        # page.click("button.btn-modal-primary:has-text('Yes')")
+        page.click("button.btn-modal-primary:has-text('Yes')")
 
         print("submitted and done successfully")
 
-        page.wait_for_timeout(300000)
+        page.wait_for_timeout(3000)
         browser.close()
 
 
